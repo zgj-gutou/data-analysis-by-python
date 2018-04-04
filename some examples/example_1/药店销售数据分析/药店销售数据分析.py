@@ -60,7 +60,7 @@ print('删除异常值前',saleDf.shape)
 saleDf = saleDf.loc[querySer,:]  # 把它们填进去
 print('删除异常值后',saleDf.shape)
 
-# 4构建模型
+# 构建模型
 '''
 业务指标1:月均消费次数=总消费次数 / 月份数
 总消费次数：同一天内，同一个人发生的所有消费算作一次消费
